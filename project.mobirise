@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "AGASAL EL SALVADOR",
-    "currentPage": "index.html",
+    "currentPage": "GaleriaWeb.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -8361,7 +8361,7 @@
           "_params": {
             "slides__autoplay": false,
             "slides__autoplayInterval": 4000,
-            "slides__showBullets": true,
+            "slides__showBullets": false,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/barismo-1-1200x1200.jpg",
@@ -8773,7 +8773,7 @@
           "_params": {
             "slides__autoplay": false,
             "slides__autoplayInterval": 4000,
-            "slides__showBullets": true,
+            "slides__showBullets": false,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/1-1200x1200.jpg",
