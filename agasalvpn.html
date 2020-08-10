@@ -76,126 +76,134 @@
         <div class="row justify-content-md-center">
             <div class="col-md-10 align-center">
                 <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">Bienvenido</h1>
-              <img src="https://agasal.com/assets/images/logo-agasal-1-122x110.png"/>
-<form name="login"> 
-     <table VALIGN="MIDDLE" ALIGN="CENTER" width="200" border="0"> 
-       <tr> 
-         <td align="center"><span class="cnt">Usuario 
-           <input name="usuario" type="text" class="Input" value="" size="20" /> 
-         </span></td> 
-       </tr> 
-       <tr> 
-         <td align="center"><span class="cnt"> Contraseña
-           <input name="password" type="password" class="Input" value="" size="20" /> 
-         </span></td>   
-       </tr> 
-              <tr>
-           <th align="center">
-                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" value="Acceder" target="_parent" onclick="Login()">Acceder</a></div>
-               </th>
-     </th>
-       </tr> 
-     </table> 
-</form> 
+                <script LANGUAGE="JavaScript">
+<!-- 
+function Login(){
+var done=0;
+var username=document.login.username.value;
+username=username.toLowerCase();
+var password=document.login.password.value;
+password=password.toLowerCase();
+if (usuario=="nailea@agasal.com" && password=="server1" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="nailea@agasal.com" && password=="server2" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="andrea.martinez@agasal.com" && password=="server3" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="andrea.martinez@agasal.com" && password=="server4" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="fjls.cic@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="fjls.cic@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="dema@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="dema@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="edenilson.arevalo@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="edith.chavez@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="franklin.diaz@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="eacs@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="mirian.calderon@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="rineldy.castro@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="kacq@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="rbfr@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="iflh@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="bpmp@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="jrar@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="jeso@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="kacq@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="rbfr@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="iflh@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="bpmp@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; 
+if (usuario=="jrar@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="jeso@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="w.martinez@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="naz@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="dipm@agasal.com" && password=="cocina.pgc" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="naz@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="dipm@agasal.com" && password=="cocina.cic" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g1gsv" && password=="cic.agasal1" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g2gsv" && password=="cic.agasal2" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g3gsv" && password=="cic.agasal3" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g4gsv" && password=="cic.agasal4" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g5gsv" && password=="cic.agasal5" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g6gsv" && password=="cic.agasal6" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g7gsv" && password=="cic.agasal7" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g8gsv" && password=="cic.agasal8" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g9gsv" && password=="cic.agasal9" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g10gsv" && password=="cic.agasal10" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g11gsv" && password=="cic.agasal11" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g12gsv" && password=="cic.agasal12" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g13gsv" && password=="cic.agasal13" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g14gsv" && password=="cic.agasal14" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g15gsv" && password=="cic.agasal15" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g16gsv" && password=="cic.agasal16" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="g17gsv" && password=="cic.agasal17" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="chefquinteros@agasal.com" && password=="server5" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="chefquinteros@agasal.com" && password=="server6" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="chefalfaro@agasal.com" && password=="server7" ) { window.location="http://www.agasal.com/Cicvirtual.html"; }
+if (usuario=="chefalfaro@agasal.com" && password=="server8" ) { window.location="http://www.agasal.com/Pgcvirtual.html"; }
+if (usuario=="cocinaprolm01" && password=="agasallm01" ) { window.location="http://www.agasal.com/ag01.html"; }
+if (usuario=="cocinaprolm02" && password=="agasallm02" ) { window.location="http://www.agasal.com/ag02.html"; }
+if (usuario=="cocinaprospm" && password=="agasalspm" ) { window.location="http://www.agasal.com/ag03.html"; }
+if (usuario=="cocinaprosam" && password=="agasalsam" ) { window.location="http://www.agasal.com/ag04.html"; }
+if (usuario=="cocinapromj01" && password=="agasalmj01" ) { window.location="http://www.agasal.com/ag05.html"; }
+if (usuario=="cocinapromj02" && password=="agasalmj02" ) { window.location="http://www.agasal.com/ag06.html"; }
+if (usuario=="cocinaprosab01" && password=="agasalsab01" ) { window.location="http://www.agasal.com/ag07.html"; }
+if (usuario=="cocinaprosab02" && password=="agasalsab02" ) { window.location="http://www.agasal.com/ag08.html"; }
+if (usuario=="cocinaprodom" && password=="agasaldom" ) { window.location="http://www.agasal.com/ag09.html"; }
+if (usuario=="cocinapromjam" && password=="agasalmjam" ) { window.location="http://www.agasal.com/ag10.html"; }
+if (usuario=="cocinaprolmpm" && password=="agasallmpm" ) { window.location="http://www.agasal.com/ag11.html"; }
+if (usuario=="pastelerialmam" && password=="agasallmam" ) { window.location="http://www.agasal.com/ag12.html"; }
+if (usuario=="pastelerialmpm" && password=="agasallmpm" ) { window.location="http://www.agasal.com/ag13.html"; }
+if (usuario=="pasteleriamjam" && password=="agasallmjam" ) { window.location="http://www.agasal.com/ag14.html"; }
+if (usuario=="pasteleriasab" && password=="agasalsab" ) { window.location="http://www.agasal.com/ag15.html"; }
+if (usuario=="pasteleriadom" && password=="agasaldom" ) { window.location="http://www.agasal.com/ag16.html"; }
+if (usuario=="pasteleriamjpm" && password=="agasalmjpm" ) { window.location="http://www.agasal.com/ag17.html"; }
+if (usuario=="bartenderspm" && password=="agasalbspm" ) { window.location="http://www.agasal.com/ag18.html"; }
+if (usuario=="bartenderdom" && password=="agasalbdom" ) { window.location="http://www.agasal.com/ag19.html"; }
+if (usuario=="bartendersam" && password=="agasalbsam" ) { window.location="http://www.agasal.com/ag20.html"; }
+if (usuario=="bartendermam" && password=="agasalbmam" ) { window.location="http://www.agasal.com/ag21.html"; }
+if (usuario=="bartenderlam" && password=="agasalblam" ) { window.location="http://www.agasal.com/ag22.html"; }
+if (usuario=="bartenderlpm" && password=="agasalblpm" ) { window.location="http://www.agasal.com/ag23.html"; }
+if (usuario=="barismolmam" && password=="agasalblmam" ) { window.location="http://www.agasal.com/ag24.html"; }
+if (usuario=="barismomam" && password=="agasalbmam" ) { window.location="http://www.agasal.com/ag25.html"; }
+if (usuario=="barismolpm" && password=="agasalblpm" ) { window.location="http://www.agasal.com/ag26.html"; }
+if (usuario=="barismodom" && password=="agasalbdom" ) { window.location="http://www.agasal.com/ag27.html"; }
+if (usuario=="barismompm" && password=="agasalbmpm" ) { window.location="http://www.agasal.com/ag28.html"; }
+if (usuario=="barismosam" && password=="agasalbsam" ) { window.location="http://www.agasal.com/ag29.html"; }
+if (usuario=="agprc" && password=="agasal.2020" ) { window.location="http://www.agasal.com/Pgcvirtual.html";}
 
-<script language="JavaScript"> 
-function Login(){ 
-var done=0; 
-var usuario=document.login.usuario.value; 
-var password=document.login.password.value; 
-if (usuario=="nailea@agasal.com" && password=="server1" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="nailea@agasal.com" && password=="server2" ) { window.location="Cicvirtual.html"; }
-if (usuario=="andrea.martinez@agasal.com" && password=="server3" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="andrea.martinez@agasal.com" && password=="server4" ) { window.location="Cicvirtual.html"; }
-if (usuario=="fjls.cic@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="fjls.cic@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="dema@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="dema@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="edenilson.arevalo@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="edith.chavez@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="franklin.diaz@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="eacs@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="mirian.calderon@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="rineldy.castro@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="kacq@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="rbfr@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="iflh@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="bpmp@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="jrar@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="jeso@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="kacq@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="rbfr@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="iflh@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="bpmp@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; 
-if (usuario=="jrar@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="jeso@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="w.martinez@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="naz@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="dipm@agasal.com" && password=="cocina.pgc" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="naz@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="dipm@agasal.com" && password=="cocina.cic" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g1gsv" && password=="cic.agasal1" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g2gsv" && password=="cic.agasal2" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g3gsv" && password=="cic.agasal3" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g4gsv" && password=="cic.agasal4" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g5gsv" && password=="cic.agasal5" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g6gsv" && password=="cic.agasal6" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g7gsv" && password=="cic.agasal7" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g8gsv" && password=="cic.agasal8" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g9gsv" && password=="cic.agasal9" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g10gsv" && password=="cic.agasal10" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g11gsv" && password=="cic.agasal11" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g12gsv" && password=="cic.agasal12" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g13gsv" && password=="cic.agasal13" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g14gsv" && password=="cic.agasal14" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g15gsv" && password=="cic.agasal15" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g16gsv" && password=="cic.agasal16" ) { window.location="Cicvirtual.html"; }
-if (usuario=="g17gsv" && password=="cic.agasal17" ) { window.location="Cicvirtual.html"; }
-if (usuario=="chefquinteros@agasal.com" && password=="server5" ) { window.location="Cicvirtual.html"; }
-if (usuario=="chefquinteros@agasal.com" && password=="server6" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="chefalfaro@agasal.com" && password=="server7" ) { window.location="Cicvirtual.html"; }
-if (usuario=="chefalfaro@agasal.com" && password=="server8" ) { window.location="Pgcvirtual.html"; }
-if (usuario=="cocinaprolm01" && password=="agasallm01" ) { window.location="ag01.html"; }
-if (usuario=="cocinaprolm02" && password=="agasallm02" ) { window.location="ag02.html"; }
-if (usuario=="cocinaprospm" && password=="agasalspm" ) { window.location="ag03.html"; }
-if (usuario=="cocinaprosam" && password=="agasalsam" ) { window.location="ag04.html"; }
-if (usuario=="cocinapromj01" && password=="agasalmj01" ) { window.location="ag05.html"; }
-if (usuario=="cocinapromj02" && password=="agasalmj02" ) { window.location="ag06.html"; }
-if (usuario=="cocinaprosab01" && password=="agasalsab01" ) { window.location="ag07.html"; }
-if (usuario=="cocinaprosab02" && password=="agasalsab02" ) { window.location="ag08.html"; }
-if (usuario=="cocinaprodom" && password=="agasaldom" ) { window.location="ag09.html"; }
-if (usuario=="cocinapromjam" && password=="agasalmjam" ) { window.location="ag10.html"; }
-if (usuario=="cocinaprolmpm" && password=="agasallmpm" ) { window.location="https://www.agasal.com/ag11.html"; }
-if (usuario=="pastelerialmam" && password=="agasallmam" ) { window.location="https://www.agasal.com/ag12.html"; }
-if (usuario=="pastelerialmpm" && password=="agasallmpm" ) { window.location="https://www.agasal.com/ag13.html"; }
-if (usuario=="pasteleriamjam" && password=="agasallmjam" ) { window.location="https://www.agasal.com/ag14.html"; }
-if (usuario=="pasteleriasab" && password=="agasalsab" ) { window.location="ag15.html"; }
-if (usuario=="pasteleriadom" && password=="agasaldom" ) { window.location="ag16.html"; }
-if (usuario=="pasteleriamjpm" && password=="agasalmjpm" ) { window.location="ag17.html"; }
-if (usuario=="bartenderspm" && password=="agasalbspm" ) { window.location="ag18.html"; }
-if (usuario=="bartenderdom" && password=="agasalbdom" ) { window.location="ag19.html"; }
-if (usuario=="bartendersam" && password=="agasalbsam" ) { window.location="ag20.html"; }
-if (usuario=="bartendermam" && password=="agasalbmam" ) { window.location="ag21.html"; }
-if (usuario=="bartenderlam" && password=="agasalblam" ) { window.location="ag22.html"; }
-if (usuario=="bartenderlpm" && password=="agasalblpm" ) { window.location="ag23.html"; }
-if (usuario=="barismolmam" && password=="agasalblmam" ) { window.location="ag24.html"; }
-if (usuario=="barismomam" && password=="agasalbmam" ) { window.location="ag25.html"; }
-if (usuario=="barismolpm" && password=="agasalblpm" ) { window.location="ag26.html"; }
-if (usuario=="barismodom" && password=="agasalbdom" ) { window.location="ag27.html"; }
-if (usuario=="barismompm" && password=="agasalbmpm" ) { window.location="ag28.html"; }
-if (usuario=="barismosam" && password=="agasalbsam" ) { window.location="ag29.html"; }
-if (usuario=="agprc" && password=="agasal.2020" ) { window.location="Pgcvirtual.html";}
-if (usuario=="" && password=="") { 
-window.location="index.html"; 
-} 
-} 
-        </script> 
-</center> 
-<script language="Javascript"> 
-<!-- Begin 
-document.oncontextmenu = function(){return false} 
-// End --> 
+
+if (done==0) { alert("Nombre de usuario y/o contraseña no válidos"); }
+}
+-->
 </script>
+<title>Validar Usuario</title>
+</head>
+<body bgcolor="#FFFFFF">
+<center>
+<br></br>
+<br></br>
+<img src="http://www.agasal.com/assets/images/logo-agasal-1-192x173.png">
+<h1>Ingresar al Classroom</h1>
+<center>
+<form name="login" ></h2>
+<table width="200" border="1" cellpadding="3">
+<tr>
+<td colspan="2" width="162"><center>
+<p><font size="+1"><b>Bienvenido Estudiante</b></font></p>
+</center></td>
+</tr>
+<tr>
+<td width="75"><font size="2">Usuario:</font></td>
+<td width="50"><input type="text" name="username" size="20"></td>
+</tr>
+<tr>
+<td width="75"><font size="2">Contraseña:</font></td>
+<td width="50"><input type="password" name="password" size="20"></td>
+</tr>
+<tr>
+<td colspan="2" align="center" width="200">
+<div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" value="Acceder" target="_parent" onclick="Login()">Acceder</a></div>
+
+</tr>
+</table>
+</form>
+</center>
 
 <p></p>
 <center>
